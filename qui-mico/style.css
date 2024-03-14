@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    transform: scale(0.95);
+}
+div.title{
+    background-color: #32a87f; /*ESTUDAR COM A TURMA*/
+    font-family: "Madimi One", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 7px;
+    text-align: center;
+    display: block;
+    width: 430px;
+    padding: 10px;
+    margin-left: 27%;
+    margin-top: 5px;
+    margin-bottom: -105px;
+}
+.tp{
+    transition: .2s;
+}
+.info{
+    z-index: 4;
+    text-align: center;
+    margin-left: 37%;
+}
+.inf{
+    width: 250px;
+    padding: 10px;
+    border: #ffffff54 4px solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 4;
+    text-align: center;
+    display: none;
+    position: fixed;
+    margin-top: 150px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button.xzim{
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: 900;
+    margin-left: -10px;
+    text-shadow: 
+    -1px -1px 0 white,
+    1px 1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white;
+}
+.aut{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin-top: 4px;
+}
+
+.nmd{
+    background-color: #A1D344;
+}
+.nothing{
+    background-color: #00000000;
+    border-color: #00000000 !important;
+}
+.gn{
+    background-color: #3D9EE3;
+}
+.ma{
+    background-color: #F1B200;
+}
+.mat{
+    background-color: #EADA00;
+}
+.nmp{
+    background-color: #4DB6AC;
+}
+.h{
+    background-color: #70CBEB;
+}
+.s{
+    background-color: #ffee00;
+}
+.mpt{
+    background-color: #A2C7D3;
+}
+.mt{
+    background-color: #EB8E8E;
+}
+.l{
+    background-color: #90E3E9;
+}
+.a{
+background-color: #DCADD6;
+}
+
+.simb{
+    font-size: 32px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-bottom: -3px;
+}
+.n{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: -5px;
+}
+.sub{
+    font-size: 12px;
+    margin-top: 1px;
+}
+.subn{
+    font-size: 9px;
+}
+.img.icon{
+    height: 32px;
+}
+.el{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 71px;
+    height: 71px;
+    vertical-align: middle;
+    border: #ffffff54 4px solid;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-bottom: 7px;
+    transition: .1s;
+    cursor: pointer;
+}
+.el2{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 71px;
+    height: 71px;
+    vertical-align: middle;
+    border: #ffffff54 4px solid;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-bottom: 7px;
+    transition: .1s;
+    cursor: pointer;
+}
+.el:hover{
+    transform: scale(1.1);
+}
+.container{
+    text-align: center;
+}
+.container-2{
+    text-align: center;
+    margin-top: 10px;
+}
