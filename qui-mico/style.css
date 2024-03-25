@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 *{
     margin: 0;
@@ -6,10 +7,19 @@
 }
 body{
     background-color: rgb(31, 31, 31);
-    transform: scale(0.95);
+}
+.pcontainer{
+    margin-top: 50px;
+}
+.container{
+    text-align: center;
+}
+.container-2{
+    text-align: center;
+    margin-top: 10px;
 }
 div.title{
-    background-color: #32a87f; /*ESTUDAR COM A TURMA*/
+    background-color: #32a87f; 
     font-family: "Madimi One", sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -31,19 +41,18 @@ div.title{
     margin-left: 37%;
 }
 .inf{
+    z-index: 4;
     width: 250px;
     padding: 10px;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: #ffffff54 4px solid;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 4;
-    text-align: center;
-    display: none;
-    position: fixed;
-    margin-top: 150px;
-    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 button.xzim{
     float: right;
@@ -60,6 +69,35 @@ button.xzim{
 .aut{
     background-color: rgba(0, 0, 0, 0.473);
     margin-top: 4px;
+}
+
+.caption{
+    border: 5px solid #5757578e;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    text-align: center;
+}
+.sq{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px;
+}
+.captext{
+    font-family: "Roboto Mono", monospace;
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.capmat{
+    padding: 10px;
+    display: inline-block;
 }
 
 .nmd{
@@ -153,11 +191,4 @@ background-color: #DCADD6;
 }
 .el:hover{
     transform: scale(1.1);
-}
-.container{
-    text-align: center;
-}
-.container-2{
-    text-align: center;
-    margin-top: 10px;
 }
