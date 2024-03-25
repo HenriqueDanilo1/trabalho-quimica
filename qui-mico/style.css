@@ -16,7 +16,7 @@ body{
 }
 .container-2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 div.title{
     background-color: #32a87f; 
@@ -32,8 +32,9 @@ div.title{
     margin-top: 5px;
     margin-bottom: -105px;
 }
-.tp{
+#tp{
     transition: .2s;
+    min-width: 1545px;
 }
 .info{
     z-index: 4;
@@ -44,7 +45,7 @@ div.title{
     z-index: 4;
     width: 250px;
     padding: 10px;
-    display: block;
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -78,8 +79,9 @@ button.xzim{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
+    max-width: 1000px;
 }
 .sq{
     width: 20px;
@@ -101,26 +103,26 @@ button.xzim{
 }
 
 .nmd{
-    background-color: #A1D344;
+    background-color: #99d824;
 }
 .nothing{
     background-color: #00000000;
     border-color: #00000000 !important;
 }
 .gn{
-    background-color: #3D9EE3;
+    background-color: #0b8ae4;
 }
 .ma{
-    background-color: #F1B200;
+    background-color: #ff9900;
 }
 .mat{
     background-color: #EADA00;
 }
 .nmp{
-    background-color: #4DB6AC;
+    background-color: #08b9a8;
 }
 .h{
-    background-color: #70CBEB;
+    background-color: #41cafc;
 }
 .s{
     background-color: #ffee00;
@@ -129,7 +131,7 @@ button.xzim{
     background-color: #A2C7D3;
 }
 .mt{
-    background-color: #EB8E8E;
+    background-color: #fa7999;
 }
 .l{
     background-color: #90E3E9;
@@ -161,6 +163,22 @@ background-color: #DCADD6;
 .img.icon{
     height: 32px;
 }
+.nmr{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 71px;
+    vertical-align: middle;
+    border: none;
+    margin-left: 3px;
+    cursor: pointer;
+    margin-bottom: -60px !important;
+}
+.nnmr{
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .el{
     display: inline-block;
     text-align: center;
@@ -191,4 +209,10 @@ background-color: #DCADD6;
 }
 .el:hover{
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1545px) {
+    body{
+        transform: rotate(90deg);
+    }
 }
